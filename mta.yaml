@@ -79,6 +79,8 @@ resources:
 - name: ns20dempapp20-uaa
   type: org.cloudfoundry.managed-service
   parameters:
+    config:
+      xsappname: DemoApp20-${service}
     path: ./xs-security.json
     service: xsuaa
     service-name: ns20dempapp20-xsuaa-srv
