@@ -80,7 +80,7 @@ resources:
   type: org.cloudfoundry.managed-service
   parameters:
     config:
-      xsappname: DemoApp20-${service}
+      xsappname: ns20dempapp20-${service}
     path: ./xs-security.json
     service: xsuaa
     service-name: ns20dempapp20-xsuaa-srv
